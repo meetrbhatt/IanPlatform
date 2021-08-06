@@ -1,0 +1,204 @@
+@import url(//db.onlinewebfonts.com/c/10d0501adc787b5f33eec4eefdd9b5b1?family=Brother+1816);
+@import url(//db.onlinewebfonts.com/c/bb766bf6ac06d377a2e9a1899864fffa?family=Brother-1816-ExtraBold);
+@import url(//db.onlinewebfonts.com/c/4c6d4bae00673663979f1879f856ec7e?family=Brother-1816-Light);
+
+*
+{
+    list-style: none;
+}
+
+body
+{
+    background-color: white;
+    font-family:Brother-1816-Light;
+    color: #266BCC;
+    overflow-x: hidden;
+    
+}
+
+.intro
+{
+    background-image: url(../img/IanCloseUpEdited.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateZ(30px) scale(0.95);
+    /* */
+    padding-bottom: 0;
+    
+}
+
+.introQuote
+{
+    width: 1000px;
+    height: 100px;
+     
+    margin-left:auto;
+    padding-top: 10px;
+    display:block;
+    
+}
+
+
+blockquote::before
+{
+    content: open-quote;
+    font-size: 1.75em;
+    color: #ddd;
+    font-family: sans-serif;
+}
+
+blockquote
+{
+    color:cornsilk;
+    position: relative;
+    text-align: center;
+    padding-right: 100px;
+    
+    font-weight:bolder;
+    font-size:xx-large;
+    font-family:Brother-1816-ExtraBold;
+
+}
+
+blockquote::after
+{
+    content: close-quote;
+    font-size: 1.75em;
+    color: #ddd;
+    font-family: sans-serif;
+}
+
+.introLogo
+{
+    content:url(../img/logoMayorals.png);
+    align-content: center;
+    margin-right: auto;
+    margin-left: 570px;
+    padding-top: 150px;
+    width:max-content;
+    height: max-content;
+    transform: translateZ(0px);
+
+}
+
+.wrapper
+{
+    perspective: 300px;
+    
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+    
+
+.title
+{
+    margin-bottom:50px;
+    text-align: center;
+    text-decoration: underline 2.5px;
+}
+
+#idtester
+{
+    background-color: white;
+    height: 300px;
+    width:50%;
+}
+
+.content
+{
+    background-color: white;
+    height: 300px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    scroll-behavior: inherit;
+    text-align: left;
+
+    
+}
+
+#main
+{
+    text-align: left;
+    font-size:1.7em;
+    display: inline;
+
+}
+
+#bold
+{
+    font-family: Brother-1816-ExtraBold;
+}
+
+#nonBold
+{
+    font-family: Brother-1816-Light;
+}
+
+/* Title */
+.one::before
+{
+    content: "1)";
+    margin-right:25px;
+    margin-left:40px;
+    font-size: 1.5em;
+    font-family: Brother-1816-Light;
+
+}
+
+.Img
+{
+    margin-left: 50px;
+
+}
+
+.two::before
+{
+    content: "2)";
+    margin-right:25px;
+    margin-left:40px;
+    font-size: 1.5em;
+    font-family: Brother-1816-Light;
+    
+
+}
+
+.three::before
+{
+    content: "3)";
+    margin-right:25px;
+    margin-left:40px;
+    font-size: 1.5em;
+    font-family: Brother-1816-Light;
+    
+
+}
+
+.four::before
+{
+    content: "4)";
+    margin-right:25px;
+    margin-left:40px;
+    font-size: 1.5em;
+    font-family: Brother-1816-Light;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
